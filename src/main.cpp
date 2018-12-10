@@ -89,10 +89,10 @@ public:
     
 	void keyCallback(GLFWwindow *window, int key, int scancode, int action, int mods)
 	{
-//        if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
-//        {
-//            glfwSetWindowShouldClose(window, GL_TRUE);
-//        }
+        if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
+        {
+            glfwSetWindowShouldClose(window, GL_TRUE);
+        }
 //        if (key == GLFW_KEY_W && action == GLFW_PRESS)
 //        {
 //            camera.w = 1;
@@ -109,22 +109,22 @@ public:
 //        {
 //            camera.s = 0;
 //        }
-//        if (key == GLFW_KEY_A && action == GLFW_PRESS)
-//        {
-//            camera.a = 1;
-//        }
-//        if (key == GLFW_KEY_A && action == GLFW_RELEASE)
-//        {
-//            camera.a = 0;
-//        }
-//        if (key == GLFW_KEY_D && action == GLFW_PRESS)
-//        {
-//            camera.d = 1;
-//        }
-//        if (key == GLFW_KEY_D && action == GLFW_RELEASE)
-//        {
-//            camera.d = 0;
-//        }
+        if (key == GLFW_KEY_A && action == GLFW_PRESS)
+        {
+            camera.a = 1;
+        }
+        if (key == GLFW_KEY_A && action == GLFW_RELEASE)
+        {
+            camera.a = 0;
+        }
+        if (key == GLFW_KEY_D && action == GLFW_PRESS)
+        {
+            camera.d = 1;
+        }
+        if (key == GLFW_KEY_D && action == GLFW_RELEASE)
+        {
+            camera.d = 0;
+        }
 //        if (key == GLFW_KEY_E && action == GLFW_PRESS)
 //        {
 //            camera.e = 1;
