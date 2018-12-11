@@ -36,14 +36,14 @@ public:
 		float going_forward = 0.0;
         float going_right = 0.0;
         
-		if (w == 1)
-			going_forward += 0.4;
-		if (s == 1)
-			going_forward -= 0.4;
-		if (a == 1)
-			rot.y -= 0.1;
-		if (d == 1)
-			rot.y += 0.1;
+        if (w == 1)
+            going_forward += 0.4;
+        if (s == 1)
+            going_forward -= 0.4;
+        if (a == 1)
+            rot.y -= 0.1;
+        if (d == 1)
+            rot.y += 0.1;
         if (t == 1)
             going_right += 0.1;
         if (r == 1)
